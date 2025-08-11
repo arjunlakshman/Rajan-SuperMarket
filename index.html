@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Rajan Super Market - Coming Soon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>🛒 A Rajan Super Market</h1>
+                </div>
+                
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#products" class="nav-link">Products</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#contact" class="nav-link">Visit Us</a></li>
+                    </ul>
+                </nav>
+
+                <div class="search-container">
+                    <input type="text" class="search-bar" placeholder="Search our products...">
+                    <button class="search-btn">🔍</button>
+                </div>
+
+                <div class="header-actions">
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Welcome to A Rajan Super Market</h1>
+                    <p class="hero-subtitle">Experience freshness, quality, and variety</p>
+                    <button class="btn btn--coming-soon hero-cta">COMING SOON</button>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-badge">🌿 Fresh Quality</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Categories -->
+        <section class="categories-section" id="categories">
+            <div class="container">
+                <h2 class="section-title">Our Product Categories</h2>
+                <div class="categories-grid" id="categoriesGrid">
+                    <!-- Categories will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured-section" id="products">
+            <div class="container">
+                <h2 class="section-title">Our Product Range</h2>
+                <div class="products-grid" id="productsGrid">
+                    <!-- Products will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Store Highlights -->
+        <section class="features-section">
+            <div class="container">
+                <h2 class="section-title">Why Choose A Rajan Super Market</h2>
+                <div class="features-grid" id="featuresGrid">
+                    <!-- Features will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>About A Rajan Super Market</h2>
+                        <p>Welcome to A Rajan Super Market, your neighborhood destination for fresh groceries and quality products. We are committed to serving our community with the finest selection of fresh produce, dairy, meat, and pantry essentials.</p>
+                        <p>Our mission is to provide exceptional quality products at competitive prices while maintaining the highest standards of cleanliness and customer service. Experience the difference of shopping at a store that truly cares about freshness and quality.</p>
+                        <div class="about-features">
+                            <div class="about-feature">
+                                <span class="feature-icon">✨</span>
+                                <span>Premium Quality Products</span>
+                            </div>
+                            <div class="about-feature">
+                                <span class="feature-icon">🏪</span>
+                                <span>Modern Shopping Experience</span>
+                            </div>
+                            <div class="about-feature">
+                                <span class="feature-icon">👥</span>
+                                <span>Friendly Customer Service</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="about-icon">🏪</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/Visit Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Visit Our Store</h2>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <div class="contact-text">
+                                    <h4>Address</h4>
+                                    <p>123 Main Street, City Center</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📞</span>
+                                <div class="contact-text">
+                                    <h4>Phone</h4>
+                                    <p>+91-XXXXXXXXXX</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">🕒</span>
+                                <div class="contact-text">
+                                    <h4>Store Hours</h4>
+                                    <p>8:00 AM - 9:00 PM (All Days)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <div class="map-placeholder">
+                            <span class="map-icon">🗺️</span>
+                            <p>Store Location</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>🛒 A Rajan Super Market</h3>
+                    <p>Your trusted partner for fresh groceries and quality products. Experience the difference of shopping with care and quality.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank">📘 Facebook</a>
+                        <a href="#" target="_blank">📷 Instagram</a>
+                        <a href="#" target="_blank">🐦 Twitter</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Visit Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Product Categories</h4>
+                    <ul>
+                        <li><a href="#fruits">Fresh Fruits & Vegetables</a></li>
+                        <li><a href="#dairy">Dairy & Eggs</a></li>
+                        <li><a href="#meat">Meat & Seafood</a></li>
+                        <li><a href="#bakery">Bakery & Bread</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Store Information</h4>
+                    <div class="contact-info">
+                        <p>📞 +91-XXXXXXXXXX</p>
+                        <p>📍 123 Main Street, City Center</p>
+                        <p>🕒 8:00 AM - 9:00 PM (All Days)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 A Rajan Super Market. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
